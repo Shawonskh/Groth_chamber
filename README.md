@@ -1,10 +1,12 @@
 # Grow Box for Plants
 
-We are team of 4 Science&amp;Technology students who really want to combine biology and robotics together!
+We are team of 4 Science&Technology students who really want to combine biology and robotics together!
 
-# Copyright and Authors (C) 2018 Daniel Shmidt, Dainis Ivanovs, Kirill Demishin, Sakhawat Shawon
-&lt;blondaisd@gmail.com&gt;
-&lt;d.shmidt99@gmail.com&gt;
+# Copyright and Authors (C) 2018 Dainis Ivanovs, Daniel Shmidt, Kirill Demishin, Sakhawat Shawon
+blondaisd@gmail.com
+d.shmidt99@gmail.com
+demishin.kirill@gmail.com
+shawon95@icloud.com
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
