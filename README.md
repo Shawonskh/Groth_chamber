@@ -1,4 +1,5 @@
-# Grow Box for Plants
+# Growth Chamber for Plants
+
 
 We are team of 4 Science&Technology students who really want to combine biology and robotics together!
 
