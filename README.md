@@ -15,7 +15,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 GNU General Public License for more details.
 
 
-I checked the repository the project has been discussed and we are planning to make next steps as soon as possible.
+I checked the repository the project has been discussed and we are planning to make next steps as soon as possible. By Sakhawat
 ~~This text is nothing just a test-commit~~
 ~~K joined~~
 --The D joined lobby---
