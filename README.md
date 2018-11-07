@@ -21,7 +21,31 @@ The Smart Chamber will keep track of temperature and humidity around the plant, 
 You need to choose the plant, prepare the water supply, setup couple of settings and enjoy the life while Chamber is doing its job
 Schedule
 A weekly plan for completing the project (list of tasks for each week). You need to divide the problem into subtasks that need to be solved in order to complete the whole project. The schedule should extend all the way to the final presentation and have the time you are planning to use on each step with it. Consider collective input rather than individual one. If a task takes 20h to complete according to your plan then this means that you as a team need to input that 20h not each individual.
-Component listquantityWhere to getFlower pot1-2We bye at shopArduino Nano1Take from teachersTemperature and humidity sensor module1Take from teachers3 colour LED module1-2Take from teachersGeneral servo1Take from teachersLight sensor1Take from teachersSonar1Take from teachers
+Component list
+quantity
+Where to get
+Flower pot
+1-2
+We bye at shop
+Arduino Nano
+1
+Take from teachers
+Temperature and humidity sensor module
+1
+Take from teachers
+3 colour LED module
+1-2
+Take from teachers
+General servo
+1
+Take from teachers
+Light sensor
+1
+Take from teachers
+Sonar
+1
+Take from teachers
+
 Present it in table form. It has to have following columns: item, quantity, and whether you-need-this-component-from-us. This information is crucial for your projects success. The table should contain all of the components you need to complete the project. Have look at the available hardware list at the end of the project topic. We might be able to provide some hardware outside of this list but in other cases you need to provide your own hardware if you need something out of the ordinary.
 
 I checked the repository the project has been discussed and we are planning to make next steps as soon as possible. By Sakhawat
@@ -135,7 +159,7 @@ I hope we will not lose any points for filling up the same plan for programming.
 *5 (we have to discuss the intensity with instructors) LED's
 *Onion
 
-
+.
 
 
 
