@@ -150,13 +150,21 @@ I hope we will not lose any points for filling up the same plan for programming.
 # Component list (also in sheets):
 
 *1Raspberry pi 3
+
 *2 humidity sensors (If you have only one, we can order another one online)
+
 *1 Thermal sensor
+
 *1 Computer fan (due to air circulation purposes)
+
 *1 light sensor
+
 *2 continious electrical motors
+
 *1 ultrasonic sensor
+
 *5 (we have to discuss the intensity with instructors) LED's
+
 *Onion
 
 .
