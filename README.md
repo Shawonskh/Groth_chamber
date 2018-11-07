@@ -20,3 +20,80 @@ I checked the repository the project has been discussed and we are planning to m
 ~~K joined~~
 --The D joined lobby---
 Eastern EU server
+
+
+# Overview:
+We are going to solve the problem of getting fresh vegetables (onions and green onions in our project)
+in less then favorable enviroments like during the winter when growing basic greens is problematic.
+We are planning to construct a cube shaped construct. The upper side of it will have LED's (for delivering enough light to the plant for sufficient growth),
+an ultrasonic sensor for distance detection to the plant and a continuous motor for adjusting height from the plant.
+The construct will also include humidity sensors in the enviroment(to detect air humidity) and a humidity sensor in the soil(to determine
+if the plant has to be watered) and a light sensor to determine if the plant has sufficient amounts of light). We are going to use Raspberry pi as our mainboard and main computer.
+And a computer fan to help with air circulation in the enviroment of the constructed box. Problems: 3D-modelling of the box, ~~My problems started around a week after I was born (c) Dainis~~
+Designing electrical circuits of sensors (which pins should we use), proper formulas for light intensity detection by the light sensor, soledring and software problems. 
+
+# Schedule for Pair A (Dainis and Kirill):
+
+
+Week 1, 12.11 - 18.11: 
+Dainis = Reading and getting to know the sensors to work with.
+Kirill = Discussing with Daniel about how to properly set up our Raspberry pi with
+needed sensors, paper plan for programming.
+
+Week 2, 19.11 - 25.11: 
+Dainis = Blueprint of the electric circuit.
+Kirill = According to the plan, we have to set up and test each sensor separately and if time allows, also together.
+
+Week 3, 26.11 - 02.12: 
+Dainis = Electronic circuit construction.
+Kirill = Making overall program for all of the sensors and raspberry pi control. Make sure that everything works.
+Preparing programming part of our Demo video.
+
+Week 4, 03.12 - 09.12: 
+Dainis = Testing circuit with programms, debugging.
+Kirill = Debugging and further stress testing. Preparing programming part of our Poster.
+
+Week 5, 10.12 - 16.12:
+Dainis = Setting up final demo.
+Kirill = Setting up construct for final live demo (and preparing for poster, robustness, ingenuity and the end results).
+
+# Schedule for Pair B (Daniel and Shawon):
+
+
+Week 1, 12.11 - 18.11: 
+Daniel = Discussing with Kirill about how to properly set up our Raspberry pi with
+needed sensors, paper plan for programming.
+Shawon = Blueprint of construct frame on paper.
+
+Week 2, 19.11 - 25.11: 
+Daniel = According to the plan, we have to set up and test each sensor separately and if time allows, also together.
+Shawon = Browsing and choosing 3D-modelling program.
+
+Week 3, 26.11 - 02.12: 
+Daniel = Making overall program for all of the sensors and raspberry pi control. Make sure that everything works. Preparing
+programming part of our Demo video.
+Shawon = Creating the 3D construct.
+
+Week 4, 03.12 - 09.12: 
+Daniel = Debugging and further stress testing. Preparing programming part of our Poster.
+Shawon = 3D-printing of the construct/Assembly and Debugging.
+
+Week 5, 10.12 - 16.12: 
+Daniel = Setting up construct for final live demo (and preparing for poster, robustness, ingenuity and the end results).
+Shawon = Demo.
+
+We will divide all the programming tasks between 2 of us (Kirill and Daniel), but in general,
+we have to work together on same tasks according to the programming plan (like we did in Robotex). We will discuss it later on with instructors.
+I hope we will not lose any points for filling up the same plan for programming. Thank you in advance! 
+
+# Component list (also in sheets):
+
+*1Raspberry pi 3
+*2 humidity sensors (If you have only one, we can order another one online)
+*1 Thermal sensor
+*1 Computer fan (due to air circulation purposes)
+*1 light sensor
+*2 continious electrical motors
+*1 ultrasonic sensor
+*5 (we have to discuss the intensity with instructors) LED's
+*Onion
