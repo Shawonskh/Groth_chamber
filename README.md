@@ -1,5 +1,5 @@
 # Growth Chamber for Plants
-
+.
 
 We are team of 4 Science&Technology students who really want to combine biology and robotics together!
 
@@ -97,3 +97,42 @@ I hope we will not lose any points for filling up the same plan for programming.
 *1 ultrasonic sensor
 *5 (we have to discuss the intensity with instructors) LED's
 *Onion
+Week 3, 26.11 - 02.12:
+Daniel = Making overall program for all of the sensors and raspberry pi control. Make sure that everything works. Preparing
+programming part of our Demo video.
+Shawon = Creating the 3D construct.
+
+Week 4, 03.12 - 09.12:
+Daniel = Debugging and further stress testing. Preparing programming part of our Poster.
+Shawon = 3D-printing of the construct/Assembly and Debugging.
+
+Week 5, 10.12 - 16.12:
+Daniel = Setting up construct for final live demo (and preparing for poster, robustness, ingenuity and the end results).
+Shawon = Demo.
+
+We will divide all the programming tasks between 2 of us (Kirill and Daniel), but in general,
+we have to work together on same tasks according to the programming plan (like we did in Robotex). We will discuss it later on with instructors.
+I hope we will not lose any points for filling up the same plan for programming. Thank you in advance!
+
+# Component list (also in sheets):
+
+*1Raspberry pi 3
+*2 humidity sensors (If you have only one, we can order another one online)
+*1 Thermal sensor
+*1 Computer fan (due to air circulation purposes)
+*1 light sensor
+*2 continious electrical motors
+*1 ultrasonic sensor
+*5 (we have to discuss the intensity with instructors) LED's
+*Onion
+
+
+
+
+
+
+
+
+
+
+
