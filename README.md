@@ -162,9 +162,9 @@ I hope we will not lose any points for filling up the same plan for programming.
 
 # Challenges and Solutions:
 
-Kirill - Problem was to connect fan and LEDs and to be able to controll them. Solution was to use AC to DC adapter and couple of transistors to we able to controll all of it by simple signals(5 volts).
+Kirill hawo- Problem was to connect fan and LEDs and to be able to controll them. Solution was to use AC to DC adapter and couple of transistors to we able to controll all of it by simple signals(5 volts).
 
-.
+Shawon - There was some sort of electrical issues when we were connecting all the connection together with arduino. We managed to identify correctly the ground, VCC, other correct analog & digital Pin in arduino. Now it works as we wanted the way it should work.
 
 
 
