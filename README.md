@@ -166,6 +166,7 @@ Kirill - Problem was to connect fan and LEDs and to be able to controll them. So
 
 Shawon - There was some sort of electrical issues when we were connecting all the connection together with arduino. We managed to identify correctly the ground, VCC, other correct analog & digital Pin in arduino. Now it works as we wanted the way it should work.
 
+Daniel - Problem was to find a proper sensor which can be used on Arduino with low voltage. Solution: After we ordered a DHT-11, I managed to write the code. Now  we already can test it on the field. Problem was to make a server to which we can send and check the data (e.g. humidity level). Solution: In progress. I already have it on my paper-plan. 
 
 
 
