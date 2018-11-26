@@ -166,6 +166,13 @@ Kirill - Problem was to connect fan and LEDs and to be able to controll them. So
 
 Shawon - There was some sort of electrical issues when we were connecting all the connection together with arduino. We managed to identify correctly the ground, VCC, other correct analog & digital Pin in arduino. Now it works as we wanted the way it should work.
 
+Dainis - Problems :figuring out high adjustment system
+         Solution: making the upper side of the box be rotated up and down by two bolts on a long screw with the help of servos
+
+Dainis - Problem: stabilising hight adjustment so the sides don't wobble
+         Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling in theory
+
+
 
 
 
