@@ -1,5 +1,10 @@
 # Growth Chamber for Plants
-.
+Introduction
+How often do you find your favourite flowers or healthy house-grown vegetables dry and dead because you are always forget to water them? How many times the idea of having your own small garden with healing herbs came to your mind? 
+We suppose that our Growth Chamber for Plants can be used at any place and any conditions where plants supposed to grow. The reason for that is that this Smart Chamber will help you to automate and improve the process of growing the plants in couple of clicks!
+The Smart Chamber will keep track of temperature and humidity around the plant, preserve the necessary humidity level and extend the light cycle which is crucial for fast and positive growth.
+You need to choose the plant, prepare the water supply, setup couple of settings and enjoy the life while Chamber is doing its job
+
 
 We are team of 4 Science&Technology students who really want to combine biology and robotics together!
 
@@ -13,12 +18,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
-
-Overview
-How often do you find your favourite flowers or healthy house-grown vegetables dry and dead because you are always forget to water them? How many times the idea of having your own small garden with healing herbs came to your mind? 
-We suppose that our Growth Chamber for Plants can be used at any place and any conditions where plants supposed to grow. The reason for that is that this Smart Chamber will help you to automate and improve the process of growing the plants in couple of clicks!
-The Smart Chamber will keep track of temperature and humidity around the plant, preserve the necessary humidity level and extend the light cycle which is crucial for fast and positive growth.
-You need to choose the plant, prepare the water supply, setup couple of settings and enjoy the life while Chamber is doing its job
 
 Component list
 quantity
@@ -40,7 +39,6 @@ Light sensor
 Sonar
 1
 
-Present it in table form. It has to have following columns: item, quantity, and whether you-need-this-component-from-us. This information is crucial for your projects success. The table should contain all of the components you need to complete the project. Have look at the available hardware list at the end of the project topic. We might be able to provide some hardware outside of this list but in other cases you need to provide your own hardware if you need something out of the ordinary.
 
 I checked the repository the project has been discussed and we are planning to make next steps as soon as possible. By Sakhawat
 ~~This text is nothing just a test-commit~~
@@ -161,7 +159,8 @@ I hope we will not lose any points for filling up the same plan for programming.
 
 *Onion
 
-Challenges and Solutions:
+
+# Challenges and Solutions:
 
 Kirill - Problem was to connect fan and LEDs and to be able to controll them. Solution was to use AC to DC adapter and couple of transistors to we able to controll all of it by simple signals(5 volts).
 
