@@ -168,6 +168,10 @@ Shawon - There was some sort of electrical issues when we were connecting all th
 
 Daniel - Problem was to find a proper sensor which can be used on Arduino with low voltage. Solution: After we ordered a DHT-11, I managed to write the code. Now  we already can test it on the field. Problem was to make a server to which we can send and check the data (e.g. humidity level). Solution: In progress. I already have it on my paper-plan. 
 
+Dainis - Problems :figuring out high adjustment system
+Solution: making the upper side of the box be rotated up and down by two bolts on a long screw with the help of servos
+Problem: stabilising hight adjustment so the sides don't wobble
+Solution : in progress. Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling in theory
 
 
 
