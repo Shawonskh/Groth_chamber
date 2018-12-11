@@ -1,16 +1,20 @@
 //MOTOTRS
 #include <Servo.h>
 Servo myservo;
-int sped = 1510;
+int MotorPin = 11; //Digital port D11
+int sped = 1505;
 int incomingByte = 0;
 
 //ULTRASONIC
-int echoPin = 2;
-int trigPin = 3;
+int echoPin = 2;//Digital port D2
+int trigPin = 3;//Digital port D3
 int delay_us = 10;
 int dist = 0;
 long distance_mm = 0;
 long duration_us = 0;
+const long intervalSonic = 2000;//How often to check ultrosonis
+unsigned long previousMillisSonic = 0;
+
 
 //FAN
 int FanPin = 7;//Digital port D7
@@ -19,13 +23,13 @@ int LEDPin = 8;//Digital port D8
 boolean state;
 
 //TIMER
-unsigned long previousMillis = 0;
+unsigned long previousMillisTimer = 0;
 const long interval = 3000;
 
 void setup() {
   // MOTORS setup
   Serial.begin(9600);
-  myservo.attach(11);
+  myservo.attach(MotorPin);
   myservo.writeMicroseconds(1510);
 
   //ULTRASONIC setup
@@ -44,31 +48,43 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   //analogWrite(11, 10);
+  unsigned long currentMillis = millis();//real time for timers
+
+  //Communication
   if (Serial.available() > 0) {
     // read the incoming byte:
     incomingByte = Serial.parseInt();
     Serial.println(incomingByte);
-    myservo.writeMicroseconds(sped + incomingByte);
+    //myservo.writeMicroseconds(sped + incomingByte);
   }
 
 
-  //Getting distance from ultro in santimeters
-  dist = ultro();
-  //Adjusting the ceiling
-  if (ultro() > 10) {
-    myservo.writeMicroseconds(sped + 80);
-  }
-  else if (ultro() < 7) {
-    myservo.writeMicroseconds(sped - 80);
-  }
-  else {
-    myservo.writeMicroseconds(sped);
+// Once in a !intervalSonic! read data from ultrasonic, when no sensor control wia Serial Monitor(-100 to 100)
+  if (currentMillis - previousMillisSonic >= intervalSonic) {
+    // save the last time you checked ultrosonic
+    previousMillisSonic = currentMillis;
+    //Getting distance from ultro in santimeters
+    dist = ultro();
+    //Adjusting the ceiling
+    if (dist > 10) {
+      myservo.writeMicroseconds(sped + 80);
+    }
+    else if (dist < 7) {
+      myservo.writeMicroseconds(sped - 80);
+      if (dist <= 1) {
+        Serial.println("No Ultra");
+        myservo.writeMicroseconds(sped + incomingByte);
+      }
+    }
+    else {
+      myservo.writeMicroseconds(sped);
+    }
   }
 
-  unsigned long currentMillis = millis();
-  if (currentMillis - previousMillis >= interval) {
+
+  if (currentMillis - previousMillisTimer >= interval) {
     // save the last time you blinked the LED
-    previousMillis = currentMillis;
+    previousMillisTimer = currentMillis;
 
     if (state == HIGH) {
       state = LOW;
@@ -78,8 +94,8 @@ void loop() {
     }
   }
 
-  digitalWrite(7, state);   // turn the LED on and off (HIGH and LOW)
-  digitalWrite(8, state);
+  digitalWrite(7, HIGH);   // turn the LED on and off (HIGH and LOW)
+  digitalWrite(8, HIGH);
 
 }//end
 
