@@ -95,17 +95,20 @@ Daniel = According to the plan, we have to set up and test each sensor separatel
 Shawon = Browsing and choosing 3D-modelling program.
 
 Week 3, 26.11 - 02.12: 
-Daniel = Making overall program for all of the sensors and raspberry pi control. Make sure that everything works. Preparing
-programming part of our Demo video.
-Shawon = Creating the 3D construct.
+Daniel = Making overall program for most of the sensors and raspberry pi control. 
+I added the ultrasonic part to initial set up of our mainchamber file (which Kirill created). I also added the code for temperature and humidity sensors. 
+Make sure that everything works. Preparing programming part of our Demo video.
+Shawon = Creating the 3D construct. 
 
 Week 4, 03.12 - 09.12: 
-Daniel = Debugging and further stress testing. Preparing programming part of our Poster.
+Daniel = Debugging and further stress testing. Preparing programming part of our Poster. 
 Shawon = 3D-printing of the construct/Assembly and Debugging.
 
 Week 5, 10.12 - 16.12: 
-Daniel = Setting up construct for final live demo (and preparing for poster, robustness, ingenuity and the end results).
-Shawon = Demo.
+Daniel = Preparing for the poster. Brainstorming and making code for: "How to send our data via Wi-Fi and Raspberry" or "How to keep our data locally on Raspberry". 
+Adding the light intensity sensor code.
+
+Shawon =
 
 We will divide all the programming tasks between 2 of us (Kirill and Daniel), but in general,
 we have to work together on same tasks according to the programming plan (like we did in Robotex). We will discuss it later on with instructors.
