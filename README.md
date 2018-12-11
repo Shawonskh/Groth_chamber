@@ -106,7 +106,7 @@ Shawon = 3D-printing of the construct/Assembly and Debugging.
 
 Week 5, 10.12 - 16.12: 
 Daniel = Preparing for the poster. Brainstorming and making code for: "How to send our data via Wi-Fi and Raspberry" or "How to keep our data locally on Raspberry". 
-Adding the light intensity sensor code.
+Adding the light intensity sensor code. Making a config for the Raspberry.
 
 Shawon =
 
