@@ -95,17 +95,20 @@ Daniel = According to the plan, we have to set up and test each sensor separatel
 Shawon = Browsing and choosing 3D-modelling program.
 
 Week 3, 26.11 - 02.12: 
-Daniel = Making overall program for all of the sensors and raspberry pi control. Make sure that everything works. Preparing
-programming part of our Demo video.
-Shawon = Creating the 3D construct.
+Daniel = Making overall program for most of the sensors and raspberry pi control. 
+I added the ultrasonic part to initial set up of our mainchamber file (which Kirill created). I also added the code for temperature and humidity sensors. 
+Make sure that everything works. Preparing programming part of our Demo video.
+Shawon = Creating the 3D construct. 
 
 Week 4, 03.12 - 09.12: 
-Daniel = Debugging and further stress testing. Preparing programming part of our Poster.
+Daniel = Debugging and further stress testing. Preparing programming part of our Poster. 
 Shawon = 3D-printing of the construct/Assembly and Debugging.
 
 Week 5, 10.12 - 16.12: 
-Daniel = Setting up construct for final live demo (and preparing for poster, robustness, ingenuity and the end results).
-Shawon = Demo.
+Daniel = Preparing for the poster. Brainstorming and making code for: "How to send our data via Wi-Fi and Raspberry" or "How to keep our data locally on Raspberry". 
+Adding the light intensity sensor code. Adding the soil moisture control code. Making a config for the Raspberry.
+
+Shawon =
 
 We will divide all the programming tasks between 2 of us (Kirill and Daniel), but in general,
 we have to work together on same tasks according to the programming plan (like we did in Robotex). We will discuss it later on with instructors.
@@ -164,7 +167,7 @@ I hope we will not lose any points for filling up the same plan for programming.
 
 Kirill - Problem was to connect fan and LEDs and to be able to controll them. Solution was to use AC to DC adapter and couple of transistors to we able to controll all of it by simple signals(5 volts).
 
-Shawon - There was some sort of electrical issues when we were connecting all the connection together with arduino. We managed to identify correctly the ground, VCC, other correct analog & digital Pin in arduino. Now it works as we wanted the way it should work.
+Sakhawat - There was some sort of electrical issues when we were connecting all the connection together with arduino. We managed to identify correctly the ground, VCC, other correct analog & digital Pin in arduino. Now it works as we wanted the way it should work.
 
 Daniel - Problem was to find a proper sensor which can be used on Arduino with low voltage. Solution: After we ordered a DHT-11, I managed to write the code. Now  we already can test it on the field. Problem was to make a server to which we can send and check the data (e.g. humidity level). Solution: In progress. I already have it on my paper-plan. 
 
@@ -173,7 +176,17 @@ Solution: making the upper side of the box be rotated up and down by two bolts o
 Problem: stabilising hight adjustment so the sides don't wobble
 Solution : in progress. Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling in theory
 
+## Proof of Concept 
 
+Kirill- Cut 1 plate out of 3. Made the ultrasonic working. After that also made the motors working simultaneously with the ultrasonic. Fixed the issue that if the distance is so close then the servo starts rotating in different direction.
+
+Sakhawat- Cut 1 plate out of 3 for our base. Cut all other 4 pillars & covers with kirill. Made holes inside the plates. After that painted the outside box as well together. Put all the connection, managed to differentiate the pins.
+
+Dainis- Cut 1 plate out of 3. When Sakhawat & kirill was constructing the Model, I managed to find 2 servo motors from physicum. Soldered the LED'S. Connected the fan.
+
+Daniel- Fixed the repository and readme file. Made the Temperature & Humidity Sensors working. 
+
+ 
 
 
 
