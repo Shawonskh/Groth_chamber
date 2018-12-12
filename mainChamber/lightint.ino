@@ -14,8 +14,8 @@ void loop() {
   sensorValue = analogRead(sensorPin);
 
   //Serial.println(sensorValue);
-  mapping=map(sensorValue,1,500,255,0);
-  if(mapping<0){
+  mapping=map(sensorValue,1,1024,255,0);
+  if(mapping<10){
     mapping = 0;
   }
   analogWrite(ledPin, mapping);
