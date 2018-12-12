@@ -176,6 +176,7 @@ Solution: making the upper side of the box be rotated up and down by two bolts o
 Problem: stabilising hight adjustment so the sides don't wobble
 Solution : in progress. Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling in theory
 
+Daniel: Checked the Soil Moisture Control directly in our system. Everything is working now.
 ## Proof of Concept 
 
 Kirill- Cut 1 plate out of 3. Made the ultrasonic working. After that also made the motors working simultaneously with the ultrasonic. Fixed the issue that if the distance is so close then the servo starts rotating in different direction.
