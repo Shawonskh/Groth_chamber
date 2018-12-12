@@ -1,4 +1,4 @@
-int sensorPin = 0;    // select the input pin for the Soil moisture sensor
+int sensorPin = A0;    // select the input pin for the Soil moisture sensor
 int sensorValue = 0;  // variable to store the value coming from the sensor
  
 int sensorVCC = 10;
@@ -19,7 +19,7 @@ void loop() {
   //stop power 
   digitalWrite(sensorVCC, LOW);  
   //wait
-  delay(60*1000);//delay time change according to your need          
+  delay(1000);//delay time change according to your need          
   Serial.print("sensor = " );                       
   Serial.println(sensorValue);                   
 }
