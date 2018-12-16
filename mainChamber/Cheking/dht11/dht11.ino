@@ -156,3 +156,6 @@ void loop() {
   // DHT11 sampling rate is 1HZ.
   delay(1500);
 }
+
+// Works.
+

@@ -73,7 +73,7 @@ void setup() {
   pinMode(echoPin, INPUT);
   pinMode(trigPin, OUTPUT);
 
-  //FAN controll
+  //FAN control
   pinMode(FanPin, OUTPUT);//7
   //LIGHT controll
   pinMode(LEDPin, OUTPUT);//8
@@ -212,7 +212,7 @@ int ultro() {
 }
 
 
-//DHT stuff...
+//DHT 11
 int confirm(int pin, int us, byte level) {
   // wait one more count to ensure.
   int cnt = us / 10 + 1;
@@ -341,3 +341,4 @@ int read(int pin, byte * ptemperature, byte * phumidity, byte pdata[40]) {
   return ret;
 }
 
+// Works good.

@@ -26,4 +26,4 @@ void loop() {
 // 0 ~ 300 : Dry Soil
 // 300 ~ 700 : Humid Soil
 // 700 ~ 950 : in Water.
- 
+// Sometimes has an error with random characters instead of a value. Works fine.

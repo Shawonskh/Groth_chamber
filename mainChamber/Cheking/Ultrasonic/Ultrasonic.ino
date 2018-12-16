@@ -1,5 +1,6 @@
 // Datasheet for Ultrasonic Ranging Module HC - SR04
 // https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+// Don't forget to check PINS!!!
 
 int echoPin = 2;
 int trigPin = 3;
