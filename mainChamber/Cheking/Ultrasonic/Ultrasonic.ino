@@ -23,17 +23,17 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(delay_us);
   digitalWrite(trigPin, LOW);
-  
-  // Read the pulse HIGH state on echo pin 
+
+  // Read the pulse HIGH state on echo pin
   // the length of the pulse in microseconds
   duration_us = pulseIn(echoPin, HIGH);
-  
+
   // YOU HAVE TO CALCULATE THE distance_mm BASED ON THE duration_us
   // FIND THE FORMULA FROM THE DATASHEET AND IMPLEMENT IT HERE
-  
-  distance_mm = duration_us*340/2/1000;//(high level time×velocity of sound(340M/S) / 2
-  
-  Serial.println(distance_mm);
 
+  distance_mm = duration_us * 340 / 2 / 1000; //(high level time×velocity of sound(340M/S) / 2
+
+  Serial.println(distance_mm);
+  Serial.println("dist");
   delay(1000);
 }

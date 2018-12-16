@@ -3,7 +3,7 @@ int confirm(int pin, int us, byte level);
 byte bits2byte(byte data[8]);
 int sample(int pin, byte data[40]);
 int parse(byte data[40], byte* ptemperature, byte* phumidity);
-int pinDHT11 = 2;
+int pinDHT11 = 4;
 
 void setup() {
   Serial.begin(9600);
@@ -154,5 +154,5 @@ void loop() {
   Serial.print((int)humidity); Serial.println(" %");
 
   // DHT11 sampling rate is 1HZ.
-  delay(1000);
+  delay(1500);
 }
