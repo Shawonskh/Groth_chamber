@@ -106,8 +106,7 @@ Shawon = Assembly and Debugging & Painting.
 
 Week 5, 10.12 - 16.12: 
 Daniel = Preparing for the poster. Brainstorming and making code for: "How to send our data via Wi-Fi and Raspberry" or "How to keep our data locally on Raspberry". 
-Adding the light intensity sensor code. Adding the soil moisture control code. Making a config for the Raspberry.
-
+Adding the light intensity sensor code. Adding the soil moisture control code. Decided to keep showing our data on Raspberry (due to server problems). Helped with the programming part of our poster.
 Shawon = Spent most of the time to make the Poster.
 
 We will divide all the programming tasks between 2 of us (Kirill and Daniel), but in general,
