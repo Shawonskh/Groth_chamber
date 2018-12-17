@@ -41,10 +41,7 @@ Sonar
 
 
 I checked the repository the project has been discussed and we are planning to make next steps as soon as possible. By Sakhawat
-~~This text is nothing just a test-commit~~
-~~K joined~~
---The D joined lobby---
-Eastern EU server
+
 
 
 # Overview:
@@ -115,7 +112,7 @@ I hope we will not lose any points for filling up the same plan for programming.
 
 # Component list (also in sheets):
 
-*1Raspberry pi 3
+
 *2 humidity sensors (If you have only one, we can order another one online)
 *1 Thermal sensor
 *1 Computer fan (due to air circulation purposes)
@@ -143,7 +140,7 @@ I hope we will not lose any points for filling up the same plan for programming.
 
 # Component list (also in sheets):
 
-*1Raspberry pi 3
+
 
 *2 humidity sensors (If you have only one, we can order another one online)
 
