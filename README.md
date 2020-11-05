@@ -41,8 +41,7 @@ Sonar
 
 
 I checked the repository the project has been discussed and we are planning to make next steps as soon as possible. By Sakhawat
-~~This text is nothing just a test-commit~~
-~~K joined~~
+
 --The D joined lobby---
 Eastern EU server
 
@@ -168,6 +167,10 @@ Shawon - There was some sort of electrical issues when we were connecting all th
 
 Dainis - Problems :figuring out high adjustment system
          Solution: making the upper side of the box be rotated up and down by two bolts on a long screw with the help of servos
+
+Dainis - Problem: stabilising hight adjustment so the sides don't wobble
+         Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling in theory
+
 
 Dainis - Problem: stabilising hight adjustment so the sides don't wobble
          Solution: The upper parts could be connected via a metal rod or something like that and the plate on which the pot stays will be glued to the plastic legs which should decrease the wiggling 
